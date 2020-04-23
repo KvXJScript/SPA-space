@@ -1,0 +1,144 @@
+.contact{
+   padding: 5rem 0;
+   background-image: url('../images/contact.jpeg');
+   height: 100vh;
+   
+   &__heading{
+      margin-bottom: 5rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: bold;
+   }
+
+   &__subtitle{
+      font-size: 35px;
+      margin: 3rem 0;
+      &_img{
+         width: 35px;
+      }
+   }
+
+   &__text{
+      padding: 2rem;
+      font-size: 20px;
+      letter-spacing: 1.2px;
+   }
+
+   &__information{
+      
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10rem 35rem;
+      
+
+      &-wrapper{
+         height: 800px;
+         width: 400px;
+         opacity: 1;
+         background-color: red;
+      }
+
+      &_form{
+         height: 400px;
+         width: 500px;
+         display:inline-block;
+
+
+         &_input{
+            width: 400px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            outline: 0;
+            transition: all .2s ease-out;
+            font-size: 20px;
+            color:#111;
+            letter-spacing: 1px;
+            background: #bbb;
+
+            &:focus{
+               border: 2px solid #fff;
+               background: #fff;
+            }
+            &:focus::placeholder{
+               color: #555;
+            }
+         }
+         &_input:nth-child(1){
+            margin-bottom: 2rem;
+         }
+         &_input:nth-child(2){
+            margin-bottom: 4rem;
+         }
+         &_textarea{
+            width: 400px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            transition: all .2s ease-out;
+            outline: none;
+            font-size: 20px;
+            color:#111;
+            border: 2px solid #fff;
+            letter-spacing: 0.6px;
+
+            &:focus{
+               border: 2px solid #fff;
+               background: #bbb;
+
+            }
+            &:focus::placeholder{
+               color: #555;
+            }
+         }
+
+         &_btn{
+            padding: 2rem 10rem;
+            color: black;
+            background-color: #fff;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 2rem;
+            letter-spacing: 1.2px;
+            cursor: pointer;
+            outline: none;
+            transition: .2s all;
+            &:hover{
+               transform: translateY(-0.3rem);
+               box-shadow: 0 1rem 2rem rgba(black,.3);
+               background-color: #bbb;
+               &::after{
+                  transform: scaleX(1.4) scaleY(1.6);
+                  border-radius:10rem;
+                  opacity:0;
+               }
+            }
+         }
+      }
+
+
+
+      &_contact{
+         font-size: 20px;
+         letter-spacing: 1px;
+         margin-bottom: 10rem;
+         & div{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3rem;
+         }
+
+         & img{
+            width: 50px;
+         }
+         & p{
+            margin-left: 5rem;
+         }
+      }
+   }
+}
+
+::placeholder{
+   color: black;
+}
