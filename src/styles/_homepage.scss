@@ -1,36 +1,8 @@
 .page{
-   // background-image: url("../images/footer-background.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   // background-image: url('../images/background.jpg');
-   // background-size: cover;
-   // background-color: black;
 }
 
-.container{
-//    &__video{
-//       position: absolute;
-//       top: 0;
-//       left: 0;
-//       width: 100%;
-//       height: 100vh;
-//       overflow: hidden;
-//    }
-//    &__video video{
-//       min-width: 100%;
-//       min-height: 100%;
-//    }
-
-//    &__content{
-//       z-index: 2;
-
-//       &_header{
-//          width: 1000px;
-//          display:flex;
-//          justify-content: space-between;
-//       }
-//    }
-}
 
 .v-header{
    margin: auto;
@@ -43,67 +15,118 @@
    // background-color: red;  
    display:flex;
 
-
-
-   &__logo{
-      margin-right: 10rem;
-      animation-name: moveInRight;
-      animation-duration: .5s;
-   }
-
-   &__logo img{
-      margin: 2rem 4rem;
-      height: 64px;
-      width: 80px;
-   }
-
    &__content{
+      background-color: black;
+      width: 100%;
+      overflow: hidden;
+      background-image: linear-gradient(105deg, rgba(0, 0, 0, 0.5) 0%, rgba(54, 54, 54, 0.5) 100%, transparent 50%), url(../images/nav-background.jpg);
       display:flex;
-      flex-grow: 1;
-      justify-content: space-around;
-      margin-top: 1rem;
-      animation-name: moveInDown;
-      animation-duration: .5s;
+      flex-direction: column;
+      justify-content: space-between;
 
-      &_link{
-         padding: 2rem;
-         transition: .15s;
+      &-image{
+         height: 12rem;
+         width: 15rem;
       }
-      &_link a{
-         text-decoration: none;
-         color: white;
-         letter-spacing: 3px;
-         font-size: 20px;
-         padding: 2rem 0;
+
+      & img{
+         position: absolute;
+         height: 12rem;
+         width: 15rem;
+      }
+
+      &_top{
+         height: 16rem;
+         width: 100vw;
+
          
+         &-motto h1{
+            font-size: 5rem;
+            letter-spacing: 3px;
+            text-align: center;
+         }
+      }
+         &_socials{
+            display:flex;
+            align-self: flex-end;
+  
+              & > div{
+                 cursor: pointer;
+                 margin-right: 1rem;
+              }
+  
+              & > div span{
+                 font-size: 1.3rem;
+                 color: rgba(219, 219, 219, 0.7);
+              }
+              & > div svg{
+                 fill: rgba(219, 219, 219, 0.7);
+                 height: 3rem;
+                 width: 3rem;
+                 padding: 0 0.5rem 0 0.5rem;
+                 transition: .1s;
+              }
+              & > div:hover svg{
+                 fill: rgb(235, 235, 235);
+              }
+              & > div:hover span{
+                 color: rgb(235, 235, 235);
+              }
       }
 
-      &_link:hover,
-      &_link:visited{
-         border-top: 3px solid white;
-         transform: translateY(-6px);
-         cursor: pointer;
+      &_bottom{
+         height: 4rem;
+         background-color: #222;
+         display:flex;
+         justify-content: space-around;
+         align-items: center;
+         padding: 0 15rem;
+         
+         &-link{
+            transition: .15s;
+            background-color: #222;
+            text-transform: uppercase;
+            padding: 0.7rem 0rem;
+         }
+         &-link:not(:last-child){
+            border-right: 3px solid black;
+         }
+         
+         &-link a{
+            text-decoration: none;
+            color: white;
+            letter-spacing: -0.6px;
+            font-size: 1.4rem;
+            padding: 1.4rem 6.83rem;
+            width: 100%;
+         }
+   
+         &-link:hover,
+         &-link:visited{
+            transform: translateY(-2px);
+            cursor: pointer;
+         }
+         &-link a.active{
+            width: 100%;
+            background-color: #333;
+            color: rgba(255, 217, 48, 0.9);
+         }
       }
-      &_link a.active{
-         border-bottom: 3px solid white;
-         width: 100%;
-      }
+
+      
    }
 }
 
 .content{
    grid-row: 2/7;
    grid-column: 1/-1;
-   position: absolute;
-   top: 100px;
-   left: 0;
-   right: 0;
 }
 
 
 .fade-enter {
    opacity: 0;
-   transform: scale(1.1);
+   transform: scale(1.5);
+   transform: translateY(5rem);;
  }
  
  .fade-enter-active {
@@ -126,7 +149,6 @@
 .footer{
    grid-row: 7/-1;
    grid-column: 1/-1;
-   margin-top: 5rem;
 }
 
 

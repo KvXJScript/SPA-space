@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import hearth from '../images/hearth.png';
-import location from '../images/location.png';
-import phone from '../images/phone.png';
-import email from '../images/email.png'
+import {ReactComponent as Location} from '../images/svg/location.svg'
+import {ReactComponent as Phone} from '../images/svg/mobile.svg'
+import {ReactComponent as Email} from '../images/svg/envelop.svg'
 
 import "../styles/_contact.scss";
 
@@ -57,15 +57,15 @@ const Contact = () => {
 
          <div className="contact__information_contact">
             <div>
-               <img src={location} alt="location"/>
-               <p>KvX Web Design, Łapanów Małopolska</p>
+               <Location/>
+               <p>KvX, Łapanów Małopolska</p>
             </div>
             <div>
-               <img src={phone} alt="phone"/>
+               <Phone/>
                <p>727 400 221</p>
             </div>
             <div>
-               <img src={email} alt="email"/>
+               <Email/>
                <p>KvXKontakt@gmail.com</p>
             </div>
          </div>

@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 
-$size: 35vw;
-$shadow: 35;
-$primary: white;
-$secondary: black;
-
 .wrapper {
   animation: sliding-background 40s linear infinite;
   background: url("https://images.unsplash.com/photo-1452697620382-f6543ead73b5") no-repeat left / 120%;
@@ -22,7 +17,7 @@ $secondary: black;
    padding-bottom: 10rem;
 
   &__text{
-    
+    padding-top: 5rem;
   }
 
   &__menu button{
@@ -58,7 +53,6 @@ $secondary: black;
 
   &__our{
       width: 80vh;
-      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
       padding: 5rem 2rem 2rem 2rem;
       cursor: pointer;
       outline: none;
@@ -110,7 +104,6 @@ $secondary: black;
     &-3,
     &-4{
       width: 80vh;
-      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
       padding: 5rem 2rem 2rem 2rem;
       cursor: pointer;
       outline: none;
@@ -160,7 +153,6 @@ $secondary: black;
       &-3,
       &-4,
       &-5{
-         background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
          padding: 5rem 2rem 2rem 2rem;
          cursor: pointer;
          outline: none;

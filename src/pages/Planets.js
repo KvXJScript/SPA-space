@@ -17,7 +17,7 @@ import haumea from '../images/planets/dwarf/haumea.png';
 import makemake from '../images/planets/dwarf/makemake.png';
 import pluto from '../images/planets/dwarf/pluto.png';
 
-import planetX from '../images/planets/hypothetical/X.png'
+import planetX from '../images/planets/hypothetical/X.png';
 
 const Planets = () => {
 
@@ -25,11 +25,10 @@ const Planets = () => {
    const [isDwarf, setIsDwarf] = useState(false);
    const [isHypothetical, setIsHypothetical] = useState(false);
 
-
    const handlePrimary = ()=>{
       setIsDwarf(false)
       setIsHypothetical(false)
-      setIsPrimary(true)
+      setIsPrimary(true);
    }
 
    const handleDwarf = ()=>{
@@ -45,7 +44,7 @@ const Planets = () => {
    }
 
    return ( 
-      
+      <>
       <div className="planets">
 
       <div className="planets__text">
@@ -58,13 +57,13 @@ const Planets = () => {
          <button onClick = {handleHypothetical} value={isHypothetical}>Hypotetical</button>
       </div>
 
-         { isPrimary === true ? 
-         
+         { isPrimary   ? 
+   
          <div className="planets__wrapper">
          <div className="planets-1">
             <img src={mercury} alt="mercury"/>
             <h3>Mercury</h3>
-         <p>Mercury—the smallest planet in our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.  </p>
+         <p><span className="pass">M</span>ercury—the smallest planet <span className="pass">i</span>n our solar system and closest to the Sun—is only slightly larger than Earth's Moon. Mercury is the fastest p<span className="pass">l</span>anet, zipping around the Sun every 88 Earth days.  </p>
          </div>
          <div className="planets-2">
             <img src={venus} alt="venus"/>
@@ -74,7 +73,7 @@ const Planets = () => {
          <div className="planets-3">
             <img src={earth} alt="earth"/>
             <h3>Earth</h3>
-            <p>Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.</p>
+            <p>Earth—our home planet—is the only place we <span className="pass">k</span>now of so far that’s inhabited by living things. It's also the onl<span className="pass">y</span> planet in our solar system with liquid water on the surface.</p>
          </div>
          <div className="planets-4">
             <img src={mars} alt="mars"/>
@@ -104,17 +103,17 @@ const Planets = () => {
          </div>
          : ""}
 
-         {isDwarf === true ? 
+         {isDwarf ? 
          <div className="planets__dwarf">
          <div className="planets__dwarf-1">
             <img src={ceres} alt="ceres"/>
             <h3>Ceres</h3>
-            <p>Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.</p>
+            <p>Pluto is a complex <span className="pass">W</span>orld of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.</p>
          </div>
          <div className="planets__dwarf-2">
             <img src={eris} alt="eris"/>
             <h3>Eris</h3>
-            <p>Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto, but it is three times farther from the Sun. One orbit takes about 557 years.</p>
+            <p>Eris is one of the largest known dwarf planets in our solar system. It's <span className="pass">a</span>bout the same size as Pluto, but it is three times farther from the Sun. One orbit takes about 557 years.</p>
          </div>
          <div className="planets__dwarf-3">
             <img src={haumea} alt="haumea"/>
@@ -124,7 +123,7 @@ const Planets = () => {
          <div className="planets__dwarf-4">
             <img src={makemake} alt="makemake"/>
             <h3>Makemake</h3>
-            <p>It takes 310 Earth years for Makemake to complete one orbit around our Sun.</p>
+            <p>It takes 310 Earth <span className="pass">y</span>ears for Makemake to complete one orbit around our Sun.</p>
          </div>
          <div className="planets__dwarf-5">
             <img src={pluto} alt="pluto"/>
@@ -133,7 +132,7 @@ const Planets = () => {
          </div>
          </div>
          :""}
-         {isHypothetical === true ? 
+         {isHypothetical  ? 
          <div className="planets__hypothetical">
          <div className="planets__hypothetical-1">
             <img src={planetX} alt="planetX"/>
@@ -144,6 +143,8 @@ const Planets = () => {
          :""}
 
       </div>
+      
+      </>
     );
 }
  

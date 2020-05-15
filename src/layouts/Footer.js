@@ -3,7 +3,6 @@ import "../styles/_homepage.scss";
 import {Route, Switch} from 'react-router-dom';
 
 import FooterAll from '../subpages/FooterAll';
-import FooterContact from '../subpages/FooterContact';
 import ErrorPage from '../pages/ErrorPage';
 
 const Footer = () => {
@@ -16,7 +15,7 @@ const Footer = () => {
                <Route path="/comets" component={FooterAll}/>
                <Route path="/login" component={FooterAll}/>
                <Route path="/mars" component={FooterAll}/>
-               <Route path="/contact" component={FooterContact}/>
+               <Route path="/contact" component={FooterAll}/>
                <Route component={ErrorPage}/>
             </Switch>
       </div>

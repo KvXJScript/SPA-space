@@ -17,7 +17,7 @@ $color-grey-dark-1: rgb(73, 73, 73);
 $color-grey-dark-2: rgb(114, 114, 114);
 
 // FONT VARIABLES
-$font-primary: 'Roboto Slab', serif;
+$font-primary: 'Raleway', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
 
 *,
@@ -30,7 +30,7 @@ $font-display: 'Josefin Sans', sans-serif;
 
 html{
    box-sizing: border-box;
-   font-size: 62.5% // 10px;
+   font-size: 62.5%; // 10px;
 }
 
 body{
@@ -39,10 +39,11 @@ body{
    font-weight: 300;
    line-height: 1.6;
    font-size: 1.6rem;
+   background-image: url(../images/planets/planets.jpg);
 }
 
 .container{
    display:grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 15rem repeat(5, minmax(10rem, 1fr)) repeat(2, 15rem);
+   grid-template-rows: 20rem repeat(5, minmax(10rem, 1fr)) repeat(2, 15rem);
 }

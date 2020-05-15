@@ -1,0 +1,69 @@
+.footer{
+   background-color: rgb(12, 12, 12);
+   clip-path: polygon(10% 100%, 90% 100%, 100% 0, 0 0);
+   margin: 0 15rem;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+   &__icons{
+      flex-grow: 1;
+   }
+   &__icons li{
+      display:inline-block;
+      padding: 1rem;
+   }
+   &__icon{
+      height: 3.5rem;
+      width: 3.5rem;
+      fill: black;
+      background-color: rgb(255, 0, 64);
+      padding: 1rem;
+      border-radius: 30%;
+   }
+   &__navigation li{
+      font-size: 1.5rem;
+      padding-right: 1rem;
+      color: rgb(233, 233, 233);
+      letter-spacing: 1.2px;
+
+      &:not(:last-child){
+         border-right: 2px solid rgb(114, 114, 114);
+      }
+      &:hover{
+         color: white;
+      }
+   }
+
+   &__subnavigation li{
+      font-size: 1.3rem;
+      letter-spacing: 0.8px;
+      padding-right: 0.8rem;
+      color: rgb(200, 200, 200);
+      
+      &:not(:last-child){
+         border-right: 2px solid rgb(114, 114, 114);
+      }
+      &:hover{
+         color: #fff;
+      }
+   }
+   &__copyright{
+      width: 100%;
+      border-top: 1px solid rgb(255, 0, 64);
+      margin-top: 1rem;
+      align-self: flex-end;
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      color: rgb(114, 114, 114);
+   }
+}
+
+li{
+   display:inline-block;
+   margin: 1rem;
+   cursor: pointer;
+}
+.name{
+   color: rgb(255, 0, 64);
+}

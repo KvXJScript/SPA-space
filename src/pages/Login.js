@@ -27,7 +27,7 @@ function loginReducer(state, action) {
     case 'error':{
       return {
         ...state,
-        error: 'Incorect username or password',
+        error: 'Incorrect username or password',
         isLoading: false,
         username: '',
         password: '',
@@ -68,12 +68,6 @@ function App() {
   const [opacity, setOpacity] = useState(1)
 
 
-  // const [username, setUsername] = useState("");
-  // const [password, setPassword] = useState("");
-  // const [error, setError] = useState("");
-  // const [isLoading, setIsLoading] = useState(false)
-  // const [isLoggedIn, setIsLoggedIn] = useState(false)
-
 
   const handleClick = (e) =>{
    e.preventDefault();
@@ -105,25 +99,29 @@ function App() {
   }
 
   return (
-
-        <div className="container">
-        {isLoggedIn  ? 
         <>
-        <div className="container__page">
-          <button class="container__page_btn" onClick = {()=> dispatch({type: 'logout'})}>Log Out</button>
+        <div className="login">
+        {isLoggedIn  ? 
+        <div className="login__page">
+          <button class="login__page_btn" onClick = {()=> dispatch({type: 'logout'})}>Log Out</button>
         </div>
         
-        </>
         
         
-        : 
-        <div className="container__login">
+        :
+        <>
+        <div className="login__info">
+          <h2 className="login__info-text">Hello and welcome in the true of abyss</h2>
+          <hr/>
+          <p className="login__info-subtext">If you don't know the password... try to find it at the page</p>
+          <p className="login__info-subtext">But... if you are lazy dude there you have it: </p>
+        </div>
+        
+        <div className="login__login">
         <form className="form" onSubmit = {onSubmit}>
           {error && <p className="form__error">{error}</p>}
           
-          <h2 className="form__text">Hello and welcome in the true of abyss</h2>
-          <p className="form__text">If you don't know the password... try to find it at the page</p>
-          <p className="form__text">But... if you are lazy dude there you have it: </p>
+          
         <button onClick = {handleClick} className = "form__login" style={{opacity: opacity}}>{buttonName}</button>
           {click === false ? "" : <h1>Your name is: <p class="form__login_account">Milky</p> and your password is: <p class="form__login_account">Way</p>Have fun :)</h1> }
            
@@ -133,9 +131,12 @@ function App() {
           
           <button className="form__submit" type="submit" disabled = {isLoading}>{isLoading ? "Logging in..." : "Log in"}</button>
         </form>
-        </div>}
         </div>
-  );
+        </>
+        }
+        </div>
+        
+        </>);
 }
 
 export default App;

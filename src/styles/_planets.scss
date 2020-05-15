@@ -4,6 +4,7 @@
    align-items: center;
    background-image: url(../images/planets/planets.jpg);
    padding-bottom: 10rem;
+   padding-top: 5rem;
 
    &__options button{
       background-color: transparent;
@@ -59,7 +60,7 @@
    &-6,
    &-7,
    &-8{
-      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
+      // background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
       padding: 3rem 1rem 1rem 1rem;
 
       cursor: pointer;
@@ -214,6 +215,9 @@
 .planets img{
    height: 250px; 
    width: 250px;
+}
+.pass {
+   color: rgb(255, 0, 64);
 }
 
 
