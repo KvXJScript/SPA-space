@@ -141,7 +141,7 @@ const Comets = () => {
                <span>Let's watch the closest objects around us... they sadly arrive and depart so fast...</span>
             </div>
             </>
-            :<button onClick = {fetchData} style={{opacity}} className="comets__api--button">Check the closest object's!</button>}
+            :<button onClick = {fetchData} style={{opacity}} className="comets__api--button">Check the closest object!</button>}
             
          </div>
          
