@@ -84,7 +84,7 @@
          }
          & select{
             width: 100%;
-            color: rgb(255, 0, 64);
+            color: rgb(255,0,40);
             letter-spacing: 1.5px;
             font-size: 1.5rem;
             padding: 0.5rem 0 0.5rem 0.2rem;
@@ -138,13 +138,13 @@
 		         background: darken(#009ED8, 30%);
 		         outline: none;
 	         }
-                     background: rgb(255, 0, 64);
+                     background: rgb(255,0,40);
 	         &:hover {
-		         background: darken(rgb(255, 0, 64), 10%);
+		         background: darken(rgb(255,0,40), 10%);
 	         }
 	         &:active,
 	         &:focus {
-		         background: darken(rgb(255, 0, 64), 30%);
+		         background: darken(rgb(255,0,40), 30%);
 	         }
 	         &:after {
 		         content: "\F052";
@@ -212,13 +212,13 @@
                }
                &-price p{
                   line-height: 1.5rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                   font-weight: bold;
                   font-size: 2rem;
                }
                &-addition{
                   padding-bottom: 1rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                }
 
             }
@@ -232,13 +232,13 @@
                }
                &-price p{
                   line-height: 1.5rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                   font-weight: bold;
                   font-size: 2rem;
                }
                &-addition{
                   padding-bottom: 1rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                }
             }
             &_neptune{
@@ -250,13 +250,13 @@
                }
                &-price p{
                   line-height: 1.5rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                   font-weight: bold;
                   font-size: 2rem;
                }
                &-addition{
                   padding-bottom: 1rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                }
             }
             &_jupiter{
@@ -268,13 +268,13 @@
                }
                &-price p{
                   line-height: 1.5rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                   font-weight: bold;
                   font-size: 2rem;
                }
                &-addition{
                   padding-bottom: 1rem;
-                  color: rgb(255, 0, 64);
+                  color: rgb(255,0,40);
                }
             }
          }
@@ -316,7 +316,7 @@
       }
       &-price span{
          font-size: 3rem;
-         color: rgb(255, 0, 64);
+         color: rgb(255,0,40);
          font-weight: bold;
          letter-spacing: 1.2px;
       }
@@ -325,7 +325,7 @@
       }
       &-addition span{
          font-size: 2.5rem;
-         color: rgb(255, 0, 64);
+         color: rgb(255,0,40);
          font-weight: 100;
       }
       &-button{
@@ -354,7 +354,7 @@
          &-bottom h2{
             font-size: 3rem;
             padding: 1rem 0;
-            color: rgb(255, 0, 64);
+            color: rgb(255,0,40);
          }
       }
       &__mars{
@@ -362,7 +362,7 @@
          &-bottom h2{
             font-size: 3rem;
             padding: 1rem 0;
-            color: rgb(255, 0, 64);
+            color: rgb(255,0,40);
          }
       }
       &__neptune{
@@ -370,7 +370,7 @@
          &-bottom h2{
             font-size: 3rem;
             padding: 1rem 0;
-            color: rgb(255, 0, 64);
+            color: rgb(255,0,40);
          }
       }
       &__jupiter{
@@ -378,7 +378,7 @@
          &-bottom h2{
             font-size: 3rem;
             padding: 1rem 0;
-            color: rgb(255, 0, 64);
+            color: rgb(255,0,40);
          }
       }
 
@@ -506,7 +506,7 @@
    transition: .3s;
 
    &:hover{
-      background-color: rgb(255, 0, 64);
+      background-color: rgb(255,0,40);
    }
    &:hover .arrow{
       fill: #fff;
@@ -528,18 +528,18 @@
    transition: .3s;
 
    &:hover{
-      background-color: rgb(255, 0, 64);
+      background-color: rgb(255,0,40);
    }
 }
 
 .arrow{
-   fill: rgb(255, 0, 64);
+   fill: rgb(255,0,40);
    height: 1.5rem;
    width: 1.5rem;
 }
 
 .down{
-   fill: rgb(255, 0, 64);
+   fill: rgb(255,0,40);
    height: 3rem;
    width: 3rem;
 }

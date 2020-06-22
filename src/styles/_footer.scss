@@ -17,7 +17,7 @@
       height: 3.5rem;
       width: 3.5rem;
       fill: black;
-      background-color: rgb(255, 0, 64);
+      background-color: rgb(255,0,40);
       padding: 1rem;
       border-radius: 30%;
    }
@@ -50,7 +50,7 @@
    }
    &__copyright{
       width: 100%;
-      border-top: 1px solid rgb(255, 0, 64);
+      border-top: 1px solid rgb(255,0,40);
       margin-top: 1rem;
       align-self: flex-end;
       padding-top: 1rem;
@@ -65,5 +65,5 @@ li{
    cursor: pointer;
 }
 .name{
-   color: rgb(255, 0, 64);
+   color: rgb(255,0,40);
 }

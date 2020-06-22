@@ -36,7 +36,6 @@
          height: 800px;
          width: 400px;
          opacity: 1;
-         background-color: red;
       }
 
       &_form{
@@ -130,7 +129,7 @@
          margin-bottom: 10rem;
 
          & > div svg{
-            fill: rgba(255, 255, 255, 1);
+            fill: rgb(255,0,40);
             height: 5rem;
             width: 5rem;
          }

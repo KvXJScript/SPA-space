@@ -6,6 +6,7 @@ import Navigation from './Navigation';
 import Content from './Content';
 import Footer from './Footer';
 
+
 const Homepage = () => {
    return (
       <div className="page">

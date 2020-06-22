@@ -1,6 +1,7 @@
 import React, {useState, useReducer} from 'react';
 import {login} from '../subpages/utils';
 import '../styles/_login.scss';
+import Photo from '../images/me.jpg'
 
 function loginReducer(state, action) {
   switch (action.type) {
@@ -42,7 +43,6 @@ function loginReducer(state, action) {
       }
     }
       
-      break;
   
     default:
       break;
@@ -103,7 +103,13 @@ function App() {
         <div className="login">
         {isLoggedIn  ? 
         <div className="login__page">
-          <button class="login__page_btn" onClick = {()=> dispatch({type: 'logout'})}>Log Out</button>
+          <div className="login__page__button">
+            <button className="login__page_btn" onClick = {()=> dispatch({type: 'logout'})}>Log Out</button>
+          </div>
+          <div className="login__page__me">
+            <img src={Photo} alt=""/>
+          </div>
+          
         </div>
         
         
@@ -123,7 +129,7 @@ function App() {
           
           
         <button onClick = {handleClick} className = "form__login" style={{opacity: opacity}}>{buttonName}</button>
-          {click === false ? "" : <h1>Your name is: <p class="form__login_account">Milky</p> and your password is: <p class="form__login_account">Way</p>Have fun :)</h1> }
+          {click === false ? "" : <h1>Your name is: <p className="form__login_account">Milky</p> and your password is: <p className="form__login_account">Way</p>Have fun :)</h1> }
            
            <input type="text" placeholder="Username" value={username} onChange = {e => dispatch({type: 'field', field:'username', value: e.currentTarget.value})}/>
 

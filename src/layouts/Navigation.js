@@ -23,7 +23,7 @@ const Navigation = () => {
 
 
    const menu = list.map(item=>(
-      <div className="navigation__content_bottom-link" key={item.name}>
+      <div className="navigation__content_bottom--link" key={item.name}>
          <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
       </div>
    ))
@@ -31,24 +31,24 @@ const Navigation = () => {
    return ( 
       <div className="navigation">
          <div className="navigation__content">
-            <div className="navigation__content-image">
+            <div className="navigation__content--image">
                   <img src={Logo} alt="logo"/>
                </div>
             <div className="navigation__content_top">
                
-               <div className="navigation__content_top-motto">
-                  <h1>Still leading, still launching.</h1>
+               <div className="navigation__content_top--motto">
+                  <h1>Per aspera ad astra.</h1>
                </div>
                
             </div>
             <div className="navigation__content_socials">
-                  <div className="navigation__content_top_socials-1">
+                  <div className="navigation__content_top_socials--1">
                      <Instagram/> <span>/instagram</span>
                   </div>
-                  <div className="navigation__content_top_socials-2">
+                  <div className="navigation__content_top_socials--2">
                      <Facebook/> <span>/facebook</span>
                   </div>
-                  <div className="navigation__content_top_socials-3">
+                  <div className="navigation__content_top_socials--3">
                      <YouTube/> <span>/youtube</span>
                   </div>
                </div>

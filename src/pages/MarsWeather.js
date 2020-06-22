@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import '../styles/_marsweather.scss';
-import {ReactComponent as Spinner} from '../images/svg/Spinner-mars.svg';
+import {ReactComponent as Spinner} from '../images/svg/Spinner.svg';
 
 const MarsWeather = () => {
 
