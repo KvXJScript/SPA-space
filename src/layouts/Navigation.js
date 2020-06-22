@@ -3,9 +3,7 @@ import "../styles/_homepage.scss";
 
 import {NavLink} from 'react-router-dom';
 import Logo from '../images/logo.png';
-import {ReactComponent as Instagram} from '../images/svg/instagram.svg'
-import {ReactComponent as Facebook} from '../images/svg/facebook2.svg'
-import {ReactComponent as YouTube} from '../images/svg/youtube.svg'
+import {ReactComponent as Github} from '../images/svg/github.svg';
 
 const list = [
    {name: "Main Page", path: "/", exact: true},
@@ -37,19 +35,13 @@ const Navigation = () => {
             <div className="navigation__content_top">
                
                <div className="navigation__content_top--motto">
-                  <h1>Per aspera ad astra.</h1>
+                  <h1>Per aspera ad astra...</h1>
                </div>
                
             </div>
             <div className="navigation__content_socials">
                   <div className="navigation__content_top_socials--1">
-                     <Instagram/> <span>/instagram</span>
-                  </div>
-                  <div className="navigation__content_top_socials--2">
-                     <Facebook/> <span>/facebook</span>
-                  </div>
-                  <div className="navigation__content_top_socials--3">
-                     <YouTube/> <span>/youtube</span>
+                     <Github/>   <a href="https://github.com/KvXJScript"><span>/github</span></a>
                   </div>
                </div>
             <div className="navigation__content_bottom">

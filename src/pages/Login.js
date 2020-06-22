@@ -122,11 +122,11 @@ function App() {
             </div>
             <div className="login__page__me__text">
               <div className="login__page__me__text--heading">
-                <h1>Welcome my name is Paweł</h1>
+                <h1>Welcome, my name is Paweł</h1>
                 <h2>Thanks for coming</h2>
               </div>
               <div className="login__page__me__text--secondary">
-                <span>I am a web developer from Poland. I've met web development 2 years ago and I really loved it. It became my passion and this is surely what I want to do in my life. Anyway I am really thankfull that you came to my webite and I hope you enjoyed it at least a little bit. I hope This website will make other people love space like I do. This SPA is a part of my current possibilities. I started working at this project few months ago and I didn't want to change it dramatycly over the time when I met new technologies such as styled components, redux, redux-thunk, gsap, and many more. According to this fact I'll start a new project which will contain such technologies and utilities. Thank you once more for visiting my web site and I hope you will have a great day! :)  </span>
+                <span>I am a web developer from Poland. I've met web development 2 years ago and I really loved it. It became my passion and this is surely what I want to do in my life. Anyway I am really thankfull that you came to my webite and I hope you enjoyed it at least a little bit. I hope This website will make other people love space like I do. This SPA is a part of my current possibilities. I started working at this project few months ago and I didn't want to change it dramatycly over the time when I met new technologies such as styled components, redux, redux-thunk, gsap, RWD, OAuth, and many more. According to this fact I'll start a new project which will contain such technologies and utilities. Thank you once more for visiting my web site and I hope you will have a great day! :)  </span>
               </div>
               
             </div>
