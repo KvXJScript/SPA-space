@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SPA-space/static/css/main.c445f97d.chunk.css",
-    "main.js": "/SPA-space/static/js/main.3d7f846e.chunk.js",
-    "main.js.map": "/SPA-space/static/js/main.3d7f846e.chunk.js.map",
+    "main.js": "/SPA-space/static/js/main.4828204c.chunk.js",
+    "main.js.map": "/SPA-space/static/js/main.4828204c.chunk.js.map",
     "runtime-main.js": "/SPA-space/static/js/runtime-main.be3a7912.js",
     "runtime-main.js.map": "/SPA-space/static/js/runtime-main.be3a7912.js.map",
     "static/js/2.2bdc3c60.chunk.js": "/SPA-space/static/js/2.2bdc3c60.chunk.js",
     "static/js/2.2bdc3c60.chunk.js.map": "/SPA-space/static/js/2.2bdc3c60.chunk.js.map",
     "index.html": "/SPA-space/index.html",
-    "precache-manifest.4ae35852e75bf457129508a9db4b9b64.js": "/SPA-space/precache-manifest.4ae35852e75bf457129508a9db4b9b64.js",
+    "precache-manifest.7bf1cd2eb4566ba8de34dc1fab779b9f.js": "/SPA-space/precache-manifest.7bf1cd2eb4566ba8de34dc1fab779b9f.js",
     "service-worker.js": "/SPA-space/service-worker.js",
     "static/css/main.c445f97d.chunk.css.map": "/SPA-space/static/css/main.c445f97d.chunk.css.map",
     "static/js/2.2bdc3c60.chunk.js.LICENSE.txt": "/SPA-space/static/js/2.2bdc3c60.chunk.js.LICENSE.txt",
@@ -88,6 +88,6 @@
     "static/js/runtime-main.be3a7912.js",
     "static/js/2.2bdc3c60.chunk.js",
     "static/css/main.c445f97d.chunk.css",
-    "static/js/main.3d7f846e.chunk.js"
+    "static/js/main.4828204c.chunk.js"
   ]
 }
