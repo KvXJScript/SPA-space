@@ -35,7 +35,7 @@ const Navigation = () => {
             <div className="navigation__content_top">
                
                <div className="navigation__content_top--motto">
-                  <h1>Per aspera ad astra...</h1>
+                  <h1>Per aspera ad astra... </h1>
                </div>
                
             </div>
