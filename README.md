@@ -14,4 +14,4 @@ One of the main challanges I ran into was Authentication. This lead me to spend 
 
 
 # Technologies used to do this project
-Last but not least, the technologies implemented in this project are React, React-Router, CssTransition, Sass, BEM methology, API, Authentification, JSX. I chose to use create-react-app bolierplate, because it is such a awesome thing which helps alot with minimalizing initial setup and it gives more time to dive into coding.
+Last but not least, the technologies implemented in this project are React, React-Router, CssTransition, Sass, BEM methology, API, Authentification, JSX, React Hooks. I chose to use create-react-app bolierplate, because it is such a awesome thing which helps alot with minimalizing initial setup and it gives more time to dive into coding.
