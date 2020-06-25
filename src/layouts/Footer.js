@@ -9,13 +9,13 @@ const Footer = () => {
    return ( 
       <div className="footer">
          <Switch>
-               <Route path="/" exact component={FooterAll}/>
-               <Route path="/planets" component={FooterAll}/>
-               <Route path="/galaxies" component={FooterAll}/>
-               <Route path="/comets" component={FooterAll}/>
-               <Route path="/login" component={FooterAll}/>
-               <Route path="/mars" component={FooterAll}/>
-               <Route path="/contact" component={FooterAll}/>
+               <Route path="/SPA-space/" exact component={FooterAll}/>
+               <Route path="/SPA-space/planets" component={FooterAll}/>
+               <Route path="/SPA-space/galaxies" component={FooterAll}/>
+               <Route path="/SPA-space/comets" component={FooterAll}/>
+               <Route path="/SPA-space/login" component={FooterAll}/>
+               <Route path="/SPA-space/mars" component={FooterAll}/>
+               <Route path="/SPA-space/contact" component={FooterAll}/>
                <Route component={ErrorPage}/>
             </Switch>
       </div>
