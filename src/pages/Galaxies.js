@@ -17,8 +17,8 @@ import whirpool from  '../images/galaxies/whirpool.jpg';
 
 const Galaxies = () => {
 
-   const [isOur, setIsOur] = useState(true);
-   const [isClosest, setIsClosest] = useState(false);
+   const [isOur, setIsOur] = useState(false);
+   const [isClosest, setIsClosest] = useState(true);
    const [isSpecial, setIsSpecial] = useState(false);
 
    const handleIsOur = ()=>{
@@ -46,20 +46,12 @@ const Galaxies = () => {
             </div>
 
             <div className="galaxies__menu">
-               <button onClick = {handleIsOur} value = {isOur}>Milky Way</button>
                <button onClick = {handleIsClosest} value = {isClosest}>Closest Galaxies</button>
                <button onClick = {handleIsSpecial} value = {isSpecial}>Special Galaxies</button>
+               <button onClick = {handleIsOur} value = {isOur}>Milky Way</button>
             </div>
 
-            { isOur === true ? 
-            <div className="galaxies__our">
-            <div className="galaxies__our-1">
-               <img src={milkyway} alt="milky way"/>
-               <h3>Milky Way</h3>
-               <p>Milky Way--our Galaxy-- where everything happend is happening and will be happening. Our house, our love. Every person who ever lived was a little part of this galaxy. It contains between 100 and 400 bilions stars and at least 100 bilion planets. It's radius is roughly 40,000ly. Milky Way is just amazing</p>
-               </div>
-            </div>
-            : ""}
+            
 
             { isClosest === true ? 
             <div className = "galaxies__closest">
@@ -112,6 +104,15 @@ const Galaxies = () => {
                   <img src={whirpool} alt="whirpool"/>
                   <h3>Whirlpool Galaxy</h3>
                   <p>The Whirlpool Galaxy is about 23 million light years from the Milky Way and its diameter is approximately 60,000 light years. The Whirlpool Galaxy is also known as Messier 51a, M51a, or NGC 5194. It, and its companion galaxy together, is sometimes referred to as simply M51.</p>
+               </div>
+            </div>
+            : ""}
+            { isOur === true ? 
+            <div className="galaxies__our">
+            <div className="galaxies__our-1">
+               <img src={milkyway} alt="milky way"/>
+               <h3>Milky Way</h3>
+               <p>Milky Way--our Galaxy-- where everything happend is happening and will be happening. Our house, our love. Every person who ever lived was a little part of this galaxy. It contains between 100 and 400 bilions stars and at least 100 bilion planets. It's radius is roughly 40,000ly. Milky Way is just amazing</p>
                </div>
             </div>
             : ""}

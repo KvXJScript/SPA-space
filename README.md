@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## introduction
 
-## Available Scripts
+This was a few month long project. Project goals included using technologies that I understood and these one's that I learned before. Threw the time while I was doing this project I was developing my other features such as styled components, redux, react-redux, gsap, OAuth, RWD. Right now I am planning to do new project which will include redux, styled components, react-redux, LoDash and OAuth. Then I'll go for gsap, RWD and some features which I'll inlude over time.
 
-In the project directory, you can run:
 
-### `npm start`
+## few things about the project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Originally I wanted to build app which would contain 3 things which I love - Web Development, React and last but not least Space. I just wanted to share with you with a few awesome informations from space such as amazing planets, galaxies and some fancy API from NASA. I started this project by using create-react-app.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+# Biggest Challenges
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+One of the main challanges I ran into was Authentication. This lead me to spend a few days at youtube, udemy and documentation to set it finally up. I didn't focus that much on styling such page, that's why it isn't responsible. It follows a few RWD concepts but still it's main reason still wasn't full responsible web app. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Technologies used to do this project
+Last but not least, the technologies implemented in this project are React, React-Router, CssTransition, Sass, BEM methology, API, Authentification, JSX. I chose to use create-react-app bolierplate, because it is such a awesome thing which helps alot with minimalizing initial setup and it gives more time to dive into coding.
