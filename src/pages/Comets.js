@@ -50,7 +50,6 @@ const Comets = () => {
       .then(data=> {
          const objects = data.near_earth_objects;
          Object.values(objects).forEach((value) => {
-            console.log(value)
             value.map(arr=>{
                setName(arr.name)
                setMagnitude(arr.absolute_magnitude_h)

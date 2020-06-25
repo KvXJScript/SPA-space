@@ -23,7 +23,6 @@ const MarsWeather = () => {
    useEffect( () => {
       async function fetchedData(){
          const response = await fetch(API_URL);
-         console.log(response);
          if(response.status === 200){
             const data = await response.json();
             const { sol_keys, validity_checks, ...solData} = data
@@ -37,7 +36,6 @@ const MarsWeather = () => {
              setDate(data.First_UTC);
              dateChanger()
           })
-          console.log(data)
           setIsLoading(true)
          }
         
@@ -51,24 +49,6 @@ const MarsWeather = () => {
       date = new Date().toLocaleDateString().slice(0,10);
       return setDate(date)
    }
-
-   // const systemHandler = (temp, speed)=>{
-   //    if(flag){
-   //       temp = "C";
-   //       setTemp(temp);
-   //       speed = "kph"
-   //       setSpeed(speed)
-   //       setFlag(!flag) 
-   //    }
-   //    else{
-   //       const Farenheight="F"
-   //       setTemp(Farenheight)
-   //       const mph = "mph"
-   //       setSpeed(mph)
-   //       setFlag(!flag)
-   //    }
-   // }
-
    return ( 
      <>
      {isLoading ?<div className="mars">
@@ -100,14 +80,6 @@ const MarsWeather = () => {
      <p>InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.</p>
      <p>This is only a part of InSight’s mission. <a href="https://mars.nasa.gov/insight/mission/overview/">Click here</a> to find out more.</p>
     </div>
-    {/* 
-    <div className="unit">
-      <label htmlFor="cel">°C</label>
-      <input type="radio" id="cel" name="unit" />
-      <button className="unit__toggle" value={flag} onClick = {systemHandler}></button>
-      <label htmlFor="fah">°F</label>
-      <input type="radio" id="fah" name="unit"/>
-    </div>  */}
 
   </div>
   </div>: <Spinner/> }
