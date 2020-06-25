@@ -6,13 +6,13 @@ import Logo from '../images/logo.png';
 import {ReactComponent as Github} from '../images/svg/github.svg';
 
 const list = [
-   {name: "Main Page", path: "/", exact: true},
-   {name: "Planets", path: "/planets"},
-   {name: "Galaxies", path: "/galaxies"},
-   {name: "Mars Weather", path:"/mars"},
-   {name: "Closest objects", path: "/comets"},
-   {name: "Login to see more!", path: "/login"},
-   {name: "Contact", path: "/contact"}
+   {name: "Main Page", path: "/SPA-space/", exact: true},
+   {name: "Planets", path: "/SPA-space/planets"},
+   {name: "Galaxies", path: "/SPA-space/galaxies"},
+   {name: "Mars Weather", path:"/SPA-space/mars"},
+   {name: "Closest objects", path: "/SPA-space/comets"},
+   {name: "Login to see more!", path: "/SPA-space/login"},
+   {name: "Contact", path: "/SPA-space/contact"}
    
 ]
 

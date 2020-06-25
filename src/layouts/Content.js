@@ -23,13 +23,13 @@ const Content = () => {
                classNames="fade"
                >
             <Switch location={location}>
-               <Route path="/" exact component={Homepage}/>
-               <Route path="/planets" component={Planets}/>
-               <Route path="/galaxies" component={Galaxies}/>
-               <Route path="/comets" component={Comets}/>
-               <Route path="/login" component={Login}/>
-               <Route path="/contact" component={Contact}/>
-               <Route path="/mars" component={MarsWeather}/>
+               <Route path="/SPA-space/" exact component={Homepage}/>
+               <Route path="/SPA-space/planets" component={Planets}/>
+               <Route path="/SPA-space/galaxies" component={Galaxies}/>
+               <Route path="/SPA-space/comets" component={Comets}/>
+               <Route path="/SPA-space/login" component={Login}/>
+               <Route path="/SPA-space/contact" component={Contact}/>
+               <Route path="/SPA-space/mars" component={MarsWeather}/>
                <Route component={ErrorPage}/>
             </Switch>
             </CSSTransition>
