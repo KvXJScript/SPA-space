@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d756d89bb04faf920c66788c20e28fc8",
+    "revision": "8ff68b1e5265f612a37935b3a11bc1fa",
     "url": "/SPA-space/index.html"
   },
   {
