@@ -21,8 +21,10 @@ const Navigation = () => {
 
 
    const menu = list.map(item=>(
-      <div className="navigation__content_bottom--link" key={item.name}>
+      <div className="navigation__content__bottom__items" key={item.name}>
+         <div className="navigation__content__bottom__items--link">
          <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
+         </div>
       </div>
    ))
 
@@ -32,19 +34,19 @@ const Navigation = () => {
             <div className="navigation__content--image">
                   <img src={Logo} alt="logo"/>
                </div>
-            <div className="navigation__content_top">
+            <div className="navigation__content__top">
                
                <div className="navigation__content_top--motto">
                   <h1>Per aspera ad astra... </h1>
                </div>
                
             </div>
-            <div className="navigation__content_socials">
+            <div className="navigation__content__socials">
                   <div className="navigation__content_top_socials--1">
                   <a href="https://github.com/KvXJScript"><Github/>   <span>/github</span></a>
                   </div>
                </div>
-            <div className="navigation__content_bottom">
+            <div className="navigation__content__bottom">
                {menu}
             </div>
             
