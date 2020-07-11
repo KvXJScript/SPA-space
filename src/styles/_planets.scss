@@ -64,13 +64,13 @@
    &-6,
    &-7,
    &-8{
-      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
+      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.png);
       padding: 3rem 1rem 1rem 1rem;
 
       outline: none;
 
       &:hover{
-        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.jpg);
+        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.png);
       }
 
       & h3{
@@ -166,12 +166,12 @@
       &-3,
       &-4,
       &-5{
-         background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
+         background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.png);
          padding: 3rem 1rem 1rem 1rem;
          outline: none;
 
       &:hover{
-        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.jpg);
+        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.png);
       }
       }
 
@@ -186,12 +186,12 @@
 
    &__hypothetical{
       width: 80vh;
-      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.jpg);
+      background-image: linear-gradient(rgba(59, 59, 59, 0.2), rgba(59, 59, 59, 0.2)), url(../images/planets/planets.png);
       padding: 3rem 2rem 2rem 2rem;
       outline: none;
 
       &:hover{
-        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.jpg);
+        background-image: linear-gradient(rgba(122, 122, 122, 0.2), rgba(122, 122, 122, 0.2)), url(../images/planets/planets.png);
       }
 
       & img{
