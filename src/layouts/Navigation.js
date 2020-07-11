@@ -41,7 +41,7 @@ const Navigation = () => {
             </div>
             <div className="navigation__content_socials">
                   <div className="navigation__content_top_socials--1">
-                     <Github/>   <a href="https://github.com/KvXJScript"><span>/github</span></a>
+                  <a href="https://github.com/KvXJScript"><Github/>   <span>/github</span></a>
                   </div>
                </div>
             <div className="navigation__content_bottom">
