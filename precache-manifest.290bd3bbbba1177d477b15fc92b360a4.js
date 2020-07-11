@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c00ca79cc64e4b3a356f017026363cbb",
+    "revision": "fdfb8f15e5b3eea5e8bad06bf968e545",
     "url": "/SPA-space/index.html"
   },
   {
-    "revision": "9ba87f0e845973ffc36a",
-    "url": "/SPA-space/static/css/main.7a5a613b.chunk.css"
+    "revision": "abf9499180d9455c21e7",
+    "url": "/SPA-space/static/css/main.31d6968a.chunk.css"
   },
   {
     "revision": "a27f18f0e1877416cd1e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SPA-space/static/js/2.2bdc3c60.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ba87f0e845973ffc36a",
+    "revision": "abf9499180d9455c21e7",
     "url": "/SPA-space/static/js/main.f39a771b.chunk.js"
   },
   {
@@ -256,8 +256,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SPA-space/static/media/objects-background.91bfeb06.jpg"
   },
   {
-    "revision": "51779689fa1510978acbb42852c75597",
-    "url": "/SPA-space/static/media/planets.51779689.png"
+    "revision": "ce650591ac939b49312f0a20ad2ca164",
+    "url": "/SPA-space/static/media/planets.ce650591.jpg"
   },
   {
     "revision": "43cec8690a1b4d071e756f6fa30e1654",

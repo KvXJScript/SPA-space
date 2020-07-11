@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SPA-space/static/css/main.7a5a613b.chunk.css",
+    "main.css": "/SPA-space/static/css/main.31d6968a.chunk.css",
     "main.js": "/SPA-space/static/js/main.f39a771b.chunk.js",
     "main.js.map": "/SPA-space/static/js/main.f39a771b.chunk.js.map",
     "runtime-main.js": "/SPA-space/static/js/runtime-main.be3a7912.js",
@@ -8,9 +8,9 @@
     "static/js/2.2bdc3c60.chunk.js": "/SPA-space/static/js/2.2bdc3c60.chunk.js",
     "static/js/2.2bdc3c60.chunk.js.map": "/SPA-space/static/js/2.2bdc3c60.chunk.js.map",
     "index.html": "/SPA-space/index.html",
-    "precache-manifest.9cf1463a43b50a787bc657aa3cee9f6a.js": "/SPA-space/precache-manifest.9cf1463a43b50a787bc657aa3cee9f6a.js",
+    "precache-manifest.290bd3bbbba1177d477b15fc92b360a4.js": "/SPA-space/precache-manifest.290bd3bbbba1177d477b15fc92b360a4.js",
     "service-worker.js": "/SPA-space/service-worker.js",
-    "static/css/main.7a5a613b.chunk.css.map": "/SPA-space/static/css/main.7a5a613b.chunk.css.map",
+    "static/css/main.31d6968a.chunk.css.map": "/SPA-space/static/css/main.31d6968a.chunk.css.map",
     "static/js/2.2bdc3c60.chunk.js.LICENSE.txt": "/SPA-space/static/js/2.2bdc3c60.chunk.js.LICENSE.txt",
     "static/media/Spinner.05e8516b.svg": "/SPA-space/static/media/Spinner.05e8516b.svg",
     "static/media/X.png": "/SPA-space/static/media/X.950dd0e5.png",
@@ -67,7 +67,7 @@
     "static/media/_home.scss": "/SPA-space/static/media/moon.cf737496.png",
     "static/media/_homepage.scss": "/SPA-space/static/media/nav-background.bb733ccb.jpg",
     "static/media/neptune.png": "/SPA-space/static/media/neptune.08456b7f.png",
-    "static/media/_galaxies.scss": "/SPA-space/static/media/planets.51779689.png",
+    "static/media/_galaxies.scss": "/SPA-space/static/media/planets.ce650591.jpg",
     "static/media/pluto.png": "/SPA-space/static/media/pluto.43cec869.png",
     "static/media/react-router.png": "/SPA-space/static/media/react-router.ca70d96a.png",
     "static/media/react.010accad.svg": "/SPA-space/static/media/react.010accad.svg",
@@ -85,7 +85,7 @@
   "entrypoints": [
     "static/js/runtime-main.be3a7912.js",
     "static/js/2.2bdc3c60.chunk.js",
-    "static/css/main.7a5a613b.chunk.css",
+    "static/css/main.31d6968a.chunk.css",
     "static/js/main.f39a771b.chunk.js"
   ]
 }
