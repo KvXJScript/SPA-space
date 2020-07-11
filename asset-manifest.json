@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SPA-space/static/css/main.3abc1ef7.chunk.css",
-    "main.js": "/SPA-space/static/js/main.648bab7c.chunk.js",
-    "main.js.map": "/SPA-space/static/js/main.648bab7c.chunk.js.map",
+    "main.css": "/SPA-space/static/css/main.7a5a613b.chunk.css",
+    "main.js": "/SPA-space/static/js/main.f39a771b.chunk.js",
+    "main.js.map": "/SPA-space/static/js/main.f39a771b.chunk.js.map",
     "runtime-main.js": "/SPA-space/static/js/runtime-main.be3a7912.js",
     "runtime-main.js.map": "/SPA-space/static/js/runtime-main.be3a7912.js.map",
     "static/js/2.2bdc3c60.chunk.js": "/SPA-space/static/js/2.2bdc3c60.chunk.js",
     "static/js/2.2bdc3c60.chunk.js.map": "/SPA-space/static/js/2.2bdc3c60.chunk.js.map",
     "index.html": "/SPA-space/index.html",
-    "precache-manifest.d77ae23db7056645d6254746f3f34052.js": "/SPA-space/precache-manifest.d77ae23db7056645d6254746f3f34052.js",
+    "precache-manifest.9cf1463a43b50a787bc657aa3cee9f6a.js": "/SPA-space/precache-manifest.9cf1463a43b50a787bc657aa3cee9f6a.js",
     "service-worker.js": "/SPA-space/service-worker.js",
-    "static/css/main.3abc1ef7.chunk.css.map": "/SPA-space/static/css/main.3abc1ef7.chunk.css.map",
+    "static/css/main.7a5a613b.chunk.css.map": "/SPA-space/static/css/main.7a5a613b.chunk.css.map",
     "static/js/2.2bdc3c60.chunk.js.LICENSE.txt": "/SPA-space/static/js/2.2bdc3c60.chunk.js.LICENSE.txt",
     "static/media/Spinner.05e8516b.svg": "/SPA-space/static/media/Spinner.05e8516b.svg",
     "static/media/X.png": "/SPA-space/static/media/X.950dd0e5.png",
@@ -53,13 +53,13 @@
     "static/media/jsx.png": "/SPA-space/static/media/jsx.05bc9ae7.png",
     "static/media/jupiter.png": "/SPA-space/static/media/jupiter.fbbf6ed5.png",
     "static/media/location.9108c0c7.svg": "/SPA-space/static/media/location.9108c0c7.svg",
-    "static/media/_login.scss": "/SPA-space/static/media/login-background.798895ca.jpeg",
+    "static/media/_login.scss": "/SPA-space/static/media/login-background.33e38a5d.jpeg",
     "static/media/login-page.jpg": "/SPA-space/static/media/login-page.04e6bdb7.jpg",
-    "static/media/_contact.scss": "/SPA-space/static/media/main.a1fa27d7.jpg",
+    "static/media/_contact.scss": "/SPA-space/static/media/main.391c64a3.jpg",
     "static/media/makemake.png": "/SPA-space/static/media/makemake.51465172.png",
     "static/media/mars.png": "/SPA-space/static/media/mars.74e99d86.png",
     "static/media/_marsweather.scss": "/SPA-space/static/media/mars.afe4aa06.jpg",
-    "static/media/me.jpg": "/SPA-space/static/media/me.7c9865a9.jpg",
+    "static/media/me.jpg": "/SPA-space/static/media/me.ba122d0c.jpg",
     "static/media/mercury.png": "/SPA-space/static/media/mercury.7c977425.png",
     "static/media/messier.jpg": "/SPA-space/static/media/messier.dfa7283c.jpg",
     "static/media/milky-way.jpg": "/SPA-space/static/media/milky-way.91147e59.jpg",
@@ -67,7 +67,7 @@
     "static/media/_home.scss": "/SPA-space/static/media/moon.cf737496.png",
     "static/media/_homepage.scss": "/SPA-space/static/media/nav-background.bb733ccb.jpg",
     "static/media/neptune.png": "/SPA-space/static/media/neptune.08456b7f.png",
-    "static/media/_galaxies.scss": "/SPA-space/static/media/planets.ede313df.jpg",
+    "static/media/_galaxies.scss": "/SPA-space/static/media/planets.51779689.png",
     "static/media/pluto.png": "/SPA-space/static/media/pluto.43cec869.png",
     "static/media/react-router.png": "/SPA-space/static/media/react-router.ca70d96a.png",
     "static/media/react.010accad.svg": "/SPA-space/static/media/react.010accad.svg",
@@ -85,7 +85,7 @@
   "entrypoints": [
     "static/js/runtime-main.be3a7912.js",
     "static/js/2.2bdc3c60.chunk.js",
-    "static/css/main.3abc1ef7.chunk.css",
-    "static/js/main.648bab7c.chunk.js"
+    "static/css/main.7a5a613b.chunk.css",
+    "static/js/main.f39a771b.chunk.js"
   ]
 }
