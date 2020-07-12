@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/SPA-space/static/css/main.106c45f6.chunk.css",
-    "main.js": "/SPA-space/static/js/main.8abfcde2.chunk.js",
-    "main.js.map": "/SPA-space/static/js/main.8abfcde2.chunk.js.map",
-    "runtime-main.js": "/SPA-space/static/js/runtime-main.be3a7912.js",
-    "runtime-main.js.map": "/SPA-space/static/js/runtime-main.be3a7912.js.map",
-    "static/js/2.2bdc3c60.chunk.js": "/SPA-space/static/js/2.2bdc3c60.chunk.js",
-    "static/js/2.2bdc3c60.chunk.js.map": "/SPA-space/static/js/2.2bdc3c60.chunk.js.map",
+    "main.css": "/SPA-space/static/css/main.22cbb76c.chunk.css",
+    "main.js": "/SPA-space/static/js/main.b2d44be3.chunk.js",
+    "main.js.map": "/SPA-space/static/js/main.b2d44be3.chunk.js.map",
+    "runtime-main.js": "/SPA-space/static/js/runtime-main.a74522a0.js",
+    "runtime-main.js.map": "/SPA-space/static/js/runtime-main.a74522a0.js.map",
+    "static/css/2.5b4283b8.chunk.css": "/SPA-space/static/css/2.5b4283b8.chunk.css",
+    "static/js/2.45b85a88.chunk.js": "/SPA-space/static/js/2.45b85a88.chunk.js",
+    "static/js/2.45b85a88.chunk.js.map": "/SPA-space/static/js/2.45b85a88.chunk.js.map",
+    "static/js/3.3c81fc03.chunk.js": "/SPA-space/static/js/3.3c81fc03.chunk.js",
+    "static/js/3.3c81fc03.chunk.js.map": "/SPA-space/static/js/3.3c81fc03.chunk.js.map",
+    "static/js/4.bd4436c4.chunk.js": "/SPA-space/static/js/4.bd4436c4.chunk.js",
+    "static/js/4.bd4436c4.chunk.js.map": "/SPA-space/static/js/4.bd4436c4.chunk.js.map",
     "index.html": "/SPA-space/index.html",
-    "precache-manifest.dbeb7e737d369a46b951f224394f2450.js": "/SPA-space/precache-manifest.dbeb7e737d369a46b951f224394f2450.js",
+    "precache-manifest.9aa562a2120f6b8a725cf8ac46e2e202.js": "/SPA-space/precache-manifest.9aa562a2120f6b8a725cf8ac46e2e202.js",
     "service-worker.js": "/SPA-space/service-worker.js",
-    "static/css/main.106c45f6.chunk.css.map": "/SPA-space/static/css/main.106c45f6.chunk.css.map",
-    "static/js/2.2bdc3c60.chunk.js.LICENSE.txt": "/SPA-space/static/js/2.2bdc3c60.chunk.js.LICENSE.txt",
+    "static/css/2.5b4283b8.chunk.css.map": "/SPA-space/static/css/2.5b4283b8.chunk.css.map",
+    "static/css/main.22cbb76c.chunk.css.map": "/SPA-space/static/css/main.22cbb76c.chunk.css.map",
+    "static/js/3.3c81fc03.chunk.js.LICENSE.txt": "/SPA-space/static/js/3.3c81fc03.chunk.js.LICENSE.txt",
     "static/media/Spinner.05e8516b.svg": "/SPA-space/static/media/Spinner.05e8516b.svg",
     "static/media/X.png": "/SPA-space/static/media/X.950dd0e5.png",
     "static/media/andromeda.jpg": "/SPA-space/static/media/andromeda.8b264905.jpg",
@@ -83,9 +89,9 @@
     "static/media/youtube.87dac935.svg": "/SPA-space/static/media/youtube.87dac935.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be3a7912.js",
-    "static/js/2.2bdc3c60.chunk.js",
-    "static/css/main.106c45f6.chunk.css",
-    "static/js/main.8abfcde2.chunk.js"
+    "static/js/runtime-main.a74522a0.js",
+    "static/js/3.3c81fc03.chunk.js",
+    "static/css/main.22cbb76c.chunk.css",
+    "static/js/main.b2d44be3.chunk.js"
   ]
 }
