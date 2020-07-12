@@ -83,22 +83,18 @@
          padding: 0 15rem;
          
          &__items{
-            border-right: 3px solid black;
-
-            &--link{
-               transition: .15s;
+            transition: .15s;
                background-color: #222;
                text-transform: uppercase;
                padding: 0.7rem 0rem;
                text-align: center;
-               
-            }
-            &--link:not(:last-child){
+
+            &:not(:last-child){
                border-right: 3px solid black;
             }
             
    
-            &--link a{
+            & a{
                text-decoration: none;
                color: white;
                letter-spacing: -0.6px;
@@ -106,12 +102,12 @@
                padding: 1.2rem 7rem;
             }
       
-            &--link:hover,
-            &--link:visited{
+            &:hover,
+            &:visited{
                transform: translateY(-2px);
                cursor: pointer;
             }
-            &--link a.active{
+            & a.active{
                width: 100%;
                background-color: #333;
                color: rgba(255, 217, 48, 0.9);

@@ -22,9 +22,7 @@ const Navigation = () => {
 
    const menu = list.map(item=>(
       <div className="navigation__content__bottom__items" key={item.name}>
-         <div className="navigation__content__bottom__items--link">
          <NavLink to={item.path} exact={item.exact ? item.exact : false}>{item.name}</NavLink>
-         </div>
       </div>
    ))
 
