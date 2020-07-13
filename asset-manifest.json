@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SPA-space/static/css/main.68413cf8.chunk.css",
+    "main.css": "/SPA-space/static/css/main.76a1c7a7.chunk.css",
     "main.js": "/SPA-space/static/js/main.123eff76.chunk.js",
     "main.js.map": "/SPA-space/static/js/main.123eff76.chunk.js.map",
     "runtime-main.js": "/SPA-space/static/js/runtime-main.6ff793d7.js",
@@ -13,10 +13,10 @@
     "static/js/4.54ce67fc.chunk.js": "/SPA-space/static/js/4.54ce67fc.chunk.js",
     "static/js/4.54ce67fc.chunk.js.map": "/SPA-space/static/js/4.54ce67fc.chunk.js.map",
     "index.html": "/SPA-space/index.html",
-    "precache-manifest.d0c8b8bb3b0dbe877c1e2ab639f797fa.js": "/SPA-space/precache-manifest.d0c8b8bb3b0dbe877c1e2ab639f797fa.js",
+    "precache-manifest.d3938aa74dc1f1bec44b13139b46c11f.js": "/SPA-space/precache-manifest.d3938aa74dc1f1bec44b13139b46c11f.js",
     "service-worker.js": "/SPA-space/service-worker.js",
     "static/css/2.63881eed.chunk.css.map": "/SPA-space/static/css/2.63881eed.chunk.css.map",
-    "static/css/main.68413cf8.chunk.css.map": "/SPA-space/static/css/main.68413cf8.chunk.css.map",
+    "static/css/main.76a1c7a7.chunk.css.map": "/SPA-space/static/css/main.76a1c7a7.chunk.css.map",
     "static/js/3.35c6aa36.chunk.js.LICENSE.txt": "/SPA-space/static/js/3.35c6aa36.chunk.js.LICENSE.txt",
     "static/media/Spinner.05e8516b.svg": "/SPA-space/static/media/Spinner.05e8516b.svg",
     "static/media/X.png": "/SPA-space/static/media/X.950dd0e5.png",
@@ -91,7 +91,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ff793d7.js",
     "static/js/3.35c6aa36.chunk.js",
-    "static/css/main.68413cf8.chunk.css",
+    "static/css/main.76a1c7a7.chunk.css",
     "static/js/main.123eff76.chunk.js"
   ]
 }
