@@ -102,6 +102,12 @@
                padding: 1.2rem 7rem;
             }
 
+            @media screen and (max-width:1900px){
+               & a{
+                  padding: 1.2rem 6.8rem;
+               }
+            }
+
             @media screen and (max-width:1860px){
                & a{
                   padding: 1.2rem 6.5rem;
