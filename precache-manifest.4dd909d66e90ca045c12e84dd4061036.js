@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2510af6d4a1fbe36e5463aad285e064f",
+    "revision": "86ffeb3ba76e160ce6c672286e8208d4",
     "url": "/SPA-space/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SPA-space/static/css/2.63881eed.chunk.css"
   },
   {
-    "revision": "58cf572da5e680953559",
-    "url": "/SPA-space/static/css/main.9a83987f.chunk.css"
+    "revision": "2f126593fcf144d411b1",
+    "url": "/SPA-space/static/css/main.e3b4e853.chunk.css"
   },
   {
     "revision": "9a84072ddb6e3bacdb60",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SPA-space/static/js/4.54ce67fc.chunk.js"
   },
   {
-    "revision": "58cf572da5e680953559",
+    "revision": "2f126593fcf144d411b1",
     "url": "/SPA-space/static/js/main.123eff76.chunk.js"
   },
   {
